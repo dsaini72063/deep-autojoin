@@ -65,7 +65,7 @@ client.on("messageCreate", async (message) => {
             console.log(
               `Successfully clicked the button for message: ${message.id}`
             );
-          }, 2500);
+          }, 2000);
         } catch (error) {
           console.error("Error forwarding the message:", error);
         }
